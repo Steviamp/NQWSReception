@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NQWSReception", "NQWSReception\NQWSReception.csproj", "{1E46C378-3132-4A25-AF25-ED742651247E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1E46C378-3132-4A25-AF25-ED742651247E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E46C378-3132-4A25-AF25-ED742651247E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E46C378-3132-4A25-AF25-ED742651247E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E46C378-3132-4A25-AF25-ED742651247E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {200ECF22-14E0-461A-8998-8856B45F3F12}
+	EndGlobalSection
+EndGlobal
