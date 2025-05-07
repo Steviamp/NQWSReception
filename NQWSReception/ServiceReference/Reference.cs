@@ -5208,11 +5208,11 @@ namespace ServiceReference
         
         [System.Runtime.Serialization.DataMemberAttribute(Order=2)]
         public int Port;
-        
-        //public GetCashierQueueInfoRequestBody()
-        //{
-        //}
-        
+
+        public GetCashierQueueInfoRequestBody()
+        {
+        }
+
         public GetCashierQueueInfoRequestBody(int Cashier, string Host, int Port)
         {
             this.Cashier = Cashier;

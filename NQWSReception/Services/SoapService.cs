@@ -16,5 +16,15 @@ namespace NQWSReception.Services
             var response = await _client.GetCashierQueueInfoAsync(cashier, host, port);
             return response.Body?.GetCashierQueueInfoResult?.ToList() ?? new List<CashierQueueInfo>();
         }
+
+        public async Task<List<Priority>> GetPriorityListAsync(string host, int port)
+        {
+            var response = await _client.GetPriorityListAsync(host, port);
+
+            return response.Body?
+                       .GetPriorityListResult?
+                       .ToList()
+                   ?? new List<Priority>();
+        }
     }
 }
