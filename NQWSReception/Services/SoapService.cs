@@ -13,15 +13,8 @@ namespace NQWSReception.Services
 
         public async Task<List<CashierQueueInfo>> GetCashierQueueInfoAsync(int cashier, string host, int port)
         {
-            var request = new GetCashierQueueInfo
-            {
-                Cashier = cashier,
-                Host = host,
-                Port = port
-            };
-
-            var response = await _client.GetCashierQueueInfoAsync(request);
-            return response.GetCashierQueueInfoResult.ToList();
+            var response = await _client.GetCashierQueueInfoAsync(cashier, host, port);
+            return response.Body?.GetCashierQueueInfoResult?.ToList() ?? new List<CashierQueueInfo>();
         }
     }
 }
